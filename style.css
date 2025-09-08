@@ -1,0 +1,221 @@
+/* Global Css Start */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.w-full{
+    width: 100%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+/* Global Css End */
+
+body{
+    background: #F4F8F9;
+}
+.main-header > .wrapper{
+    padding: 20px;
+}
+.main-header nav ul{
+    gap: 20px;
+}
+.main-header nav ul li{
+    list-style: none;
+}
+
+.main-header nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.main-header nav ul li a.active{
+    color: #3b82f6
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    max-width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.hero-content h1 span {
+    color: #3b82f6; /* Blue */
+}
+
+.hero-content p {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #3b82f6;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+    /* Slider dots */
+.slider-dots {
+    margin-top: 40px;
+    display: flex;
+    gap: 8px;
+}
+
+.slider-dots span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d1d5db;
+}
+
+.slider-dots span.active {
+    background: #3b82f6;
+    width: 20px;
+    border-radius: 8px;
+}
+
+
+/* ===== Categories ===== */
+
+        .cat-grid {
+            padding: 30px 0;
+            display: grid;
+            gap: 10px;
+            /* Desktop mosaic (same look as screenshot) */
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-auto-rows: 220px;
+            grid-template-areas:
+            "sale women men accessories"
+            "new women shoes shoes";
+        }
+
+        /* Card base */
+        .cat-card {
+            position: relative;
+            overflow: hidden;
+            background: #e5e7eb;
+            background-image: var(--img);
+            background-size: cover;
+            background-position: center;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Badge */
+        .cat-badge {
+            background: #ffffff;
+            color: #111827;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 999px;
+            box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+        }
+
+        /* Grid area mapping */
+        .sale {
+            grid-area: sale;
+        }
+        .women {
+            grid-area: women;
+            grid-row: span 2;
+        } /* just for safety */
+        .men {
+            grid-area: men;
+        }
+        .accessories {
+            grid-area: accessories;
+        }
+        .new {
+            grid-area: new;
+        }
+        .shoes {
+            grid-area: shoes;
+        }
+
