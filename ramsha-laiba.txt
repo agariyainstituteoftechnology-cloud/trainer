@@ -1,0 +1,17 @@
+sb se pehle gitbash download krna hay windows 64 standalone
+
+exe file download ho jaygi downloads k folder me usay double click kr kr next next next kr k install krna hay.
+
+uske bad documents me ja k folder banaygae Web Development k naam se
+
+phr windows me search krengae command prompt usay open krengae
+
+type kren cd phr space de kr web development wala folder drag kr k command promt me move krengae
+
+uske bad command prompt me nichy likhi hoi sari commands ak sath copy kr k paste kr den srf:
+
+
+git init
+git config --global user.name "ramsha-laiba"
+git config --global user.email "ramsha-laiba@gmail.com"
+git remote add origin https://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@github.com/agariyainstituteoftechnology-cloud/ramsha-laiba.git
