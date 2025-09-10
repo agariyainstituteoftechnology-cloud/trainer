@@ -13,5 +13,5 @@ uske bad command prompt me nichy likhi hoi sari commands ak sath copy kr k paste
 
 git init
 git config --global user.name "Adeena"
-git config --global user.email "adeena@gmail.com"
+git config --global user.email "agariyainstituteoftechnology@gmail.com"
 git remote add origin https://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@github.com/agariyainstituteoftechnology-cloud/adeena.git
